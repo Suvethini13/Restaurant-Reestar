@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin: 50px;
+}
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.header a{
+    color: white;
+}
+
+.container{
+    text-align: center;
+    
+    
+}
+
+.image-one,.image-two,.image-three,.image-four{
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom:10px;
+    vertical-align: bottom;
+    border: solid;
+}
+
+.image-one__pics,.image-two__pics,.image-three__pics,.image-four__pics{
+
+height:220px;
+width: 220px;
+}
+
+.image-one__order,.image-two__order,.image-three__order,.image-four__order{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 4px;
+}
+
+.image-one__order:hover,.image-two__order:hover,.image-three__order:hover,.image-four__order:hover{
+    background-color: yellowgreen;
+    color: black;
+    outline:transparent;
+}
+
+.table-one{
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.container-one{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.container-one__send{
+    width: 25%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    border: solid yellowgreen 2px;
+}
+
+.container-one__send:hover{
+    background-color: yellowgreen;
+    color: black;
+    
+}
